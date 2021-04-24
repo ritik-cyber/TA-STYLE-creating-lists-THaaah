@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+body {
+  background-color: #d4cea7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.flex {
+  display: flex;
+}
+
+/* header part */
+.header {
+  background-color: #f96115;
+  width: 100%;
+}
+.nav-bar {
+  padding: 32px 0;
+}
+.list a {
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fffefd;
+  font-weight: 600;
+}
+
+/* secction */
+
+.section-1 {
+  height: 700px;
+}
+.article-1 {
+  width: 30%;
+  background-color: #005979;
+  padding: 32px 0;
+  height: 450px;
+  margin-top: 20px;
+  box-shadow: 0 30px 45px rgba(0, 0, 0, 0.5);
+}
+.ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #d3cea6;
+}
+.ol li {
+  margin-bottom: 15px;
+}
+.Ol {
+  list-style-type: decimal;
+  margin-left: 30px;
+  font-size: 22px;
+  color: #d3cea6;
+  font-weight: 600;
+  list-style-position: outside;
+}
+.Ol li {
+  margin-bottom: 15px;
+}
+.flex-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-menu {
+  list-style-type: disc;
+  margin-left: 30px;
+  font-weight: 700;
+  color: #d3cea6;
+  font-size: 22px;
+  list-style-position: inside;
+}
+.sub-menu li {
+  margin-bottom: 15px;
+}
+.sub-menu-2 {
+  list-style-type: square;
+}
+.sub-menu-2 li {
+  margin-left: 100px;
+}
+
+.sub-menu-1 {
+  list-style-type: decimal;
+  margin-left: 30px;
+  font-weight: 700;
+  color: #d3cea6;
+  font-size: 22px;
+  list-style-position: inside;
+}
+
+.sub-menu-1 li {
+  margin-left: 22px;
+}
+
+.unorder {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d3cea6;
+  list-style-image: url(../block-BHaaby/images.png);
+}
+.unorder li {
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
+/* section */
+.para {
+  margin-top: -130px;
+}
+
+.para h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.para p {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #444938;
+  margin-left: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.para-1 {
+  margin-top: 30px;
+}
+
+.para-1 h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.para-1 p {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #444938;
+  margin-left: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer {
+  background-color: #252c22;
+  width: 100%;
+}
+.nav-bar-1 {
+  padding: 64px 0;
+}
